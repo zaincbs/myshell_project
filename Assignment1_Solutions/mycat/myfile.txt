@@ -1,0 +1,8 @@
+Write a simple program to count the number of chars, words and lines in an ASCII text 
+file – as a simple implementation of the ‘wc’ utility
+2.2 Write a simple program to read the contents of one or more ASCII text file(s), and print 
+it out – as a simple implementation of the ‘cat’ utility.
+modify above to take the ‘-l’ argument, that prints out each line prefixed by line# in 
+the file.
+2.3 Determine the limit of maximum number of open files, using sysconf().
+2.4 Write a simple program to redirect both -- st

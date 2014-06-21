@@ -1,0 +1,22 @@
+Process:
+An instance of a program running.
+
+wait:
+It is a system call used for checking the state of a process. Ussually it is 
+used for testing if the state of the child process by the parent process so it 
+can know if the child is done with its execution.
+
+Orphan Process:
+It is ussually a child proces whose parent finished its execution and exited,
+tough the child coninues its execution usuually it is adopted by the init 
+process. 
+
+Zombie process:
+This is a child process also know as a defunct process that has completed its 
+execution but still has its entries in the process table. It ussually happens
+when the parent doesnt read the child status and child is done with its execution
+
+Interpreter:
+Interpretor is a program that directly exexutes a command just like Bash and Python
+interpreter known as idle. It doesnt need to compile the program it converts the 
+instance of a code direclty to machine language. 
